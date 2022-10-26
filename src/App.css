@@ -1,0 +1,89 @@
+
+#root{
+  background-color: rgb(0, 22, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;;
+}
+h3, h2, p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.container{
+  padding: 0px 20px;
+  width: calc(100% - 40px);
+}
+
+.card, .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.info{
+  text-align: center;
+}
+
+.card{
+  background-color: rgb(0, 40, 92);
+  border-radius: 20px;
+  width: 350px;
+}
+
+.work{
+  color:rgb(185, 121, 0);
+}
+
+.info img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons-group{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.buttons-group button{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 2px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.linkedin{
+  color:white;
+  background-color: rgb(0, 119, 255);
+}
+
+.icon{
+  display: inline-block;
+  vertical-align: -.25rem;
+  padding:0px .25rem;
+}
+
+.about, .interests{
+  text-align: start;
+}
+.about p, .interests p{
+  color: darkgray;
+  width: 100%;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(0, 30, 70);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px 20px;
+  margin-top: 20px;
+}
